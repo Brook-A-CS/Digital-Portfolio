@@ -50,11 +50,17 @@
     <p>
       I've always enjoyed game mechanics where the player slowly upgrades
       themselves in a way where its immediately noticeable both visually and in
-      gameplay which I believe to be the core of this project
+      gameplay which I believe to be the core of this project.
     </p>
     <br />
     <br />
-    <h3>Code Segments</h3>
+    <h3>Code Segments:</h3>
+    <img
+      src="./images/spaceAttackCodeSeg1.jpg"
+      alt="Code Segment 1"
+      width="700"
+      height="370"
+    />
     <p>
       This function works by first making sure that the object isn't already
       placed so you can't place an object in the same place 2x. This works
@@ -63,6 +69,35 @@
       circle, to the center of wherever the placed object will be and creates
       the attachment in that location. Making the attachment a child in the
       hierarchy allows all of the pieces to move with the player.
+    </p>
+    <img
+      src="./images/spaceAttackCodeSeg2.jpg"
+      alt="Code Segment 1"
+      width="700"
+      height="250"
+    />
+    <!-- put pic of code and hitbox detection demo -->
+    <p>
+      The game will not allow you to place an attachment where another one
+      exists, destroying the part you attempted to place. One of the issues I
+      had when implementing this was that the connection point, which always
+      moved to where the attachment was going to be placed, would stay there.
+      This moves it back into its original position and also refunds the points
+      spent on it, allowing the player to place it elsewhere.
+    </p>
+
+    <h3>Conclusion</h3>
+    <p>
+      Overall I was very happy with how this project turned out, due to the game
+      capturing that feeling of player progression and endless player choice. I
+      learned a lot from this project due to this being the first time I had
+      ever used Unity or C#, and came out with a solid understanding of what
+      Unity is capable of and the process of game design. I had some ideas I
+      wished to implement but ran out of time for such as adding a second, mini
+      boss, type enemy ship that would slowly spawn more frequently the longer
+      you stayed alive to give the game both a difficulty curve and the player a
+      greater feeling of progression as they're forced to wipe out hordes of
+      enemies that were very difficult to combat earlier into the run.
     </p>
   </body>
 </html>
