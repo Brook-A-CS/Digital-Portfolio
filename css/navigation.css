@@ -1,0 +1,21 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container > div {
+  /* background-color: #f1f1f1; */
+  margin: 10px;
+  padding: 10px;
+  font-size: 15px;
+}
+.navigation-bar {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.navigation-bar:hover {
+  color: rgba(170, 29, 29, 0.815);
+}

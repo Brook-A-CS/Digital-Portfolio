@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="/css/navigation.css" />
+    <!-- <link rel="stylesheet" href="/css/index.css" /> -->
+    <link rel="stylesheet" href="/css/background.css" />
+
+    <style></style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div>
+        <a href="index.html" class="navigation-bar"> Home </a>
+      </div>
+      <div>
+        <a href="aboutme.html" class="navigation-bar"> About Me </a>
+      </div>
+      <div>
+        <a href="importance.html" class="navigation-bar"> Importance </a>
+      </div>
+      <!-- <div>
+        <a href="projects.html" class="navigation-bar"> Projects </a>
+      </div> -->
+      <div>
+        <a href="classes.html" class="navigation-bar"> Courses Taken </a>
+      </div>
+    </div>
+    <h1>Projects</h1>
+    <h2>CSII ISP: Space Attack</h2>
+    <br />
+    <br />
+    <h3>Game Concept:</h3>
+    <p>
+      I wanted to make an infinite roguelike videogame where the player slowly
+      builds up their arsenal and takes on increasingly more difficult enemies.
+      To achieve this, the player controls a ship in space that is attacked by
+      multiple enemy ships, and as the player defeats them they can place one of
+      3 attachment types: two types of connector pieces, one a long rectangle,
+      and another circle with 3 connector points. Lastly there is a placeable
+      turret which shoots with the player.
+    </p>
+    <br />
+    <br />
+    <h3>Motivation</h3>
+    <p>
+      I've always enjoyed game mechanics where the player slowly upgrades
+      themselves in a way where its immediately noticeable both visually and in
+      gameplay which I believe to be the core of this project
+    </p>
+    <br />
+    <br />
+    <h3>Code Segments</h3>
+    <p>
+      This function works by first making sure that the object isn't already
+      placed so you can't place an object in the same place 2x. This works
+      because this script runs individually on every game piece it is attached
+      to. After this it moves the connection point, which is the small white
+      circle, to the center of wherever the placed object will be and creates
+      the attachment in that location. Making the attachment a child in the
+      hierarchy allows all of the pieces to move with the player.
+    </p>
+  </body>
+</html>
